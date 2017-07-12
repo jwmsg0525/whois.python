@@ -1,0 +1,17 @@
+This program wad made by jaewan.
+It started 2017-17-13 01:48 AM
+
+Before you start this program
+you have to install python module called 'whois'
+
+you can install by some line of the comment
+
+
+------------------------------------
+sudo apt-get install python-pip
+
+sudo pip install whois
+-----------------------------------
+
+Then you can start my code.
+
