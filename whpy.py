@@ -3,11 +3,11 @@
 import whois
 
 f = open("file","r")
-lines = f.readline()
-try:
-	wh = whois.whois(lines)
-	print wh
-	print lines
-except:
-	print "err in file or output!!"
-	print lines
+fr = open("res_file","w")
+lines = f.read()
+wh = whois.whois(lines.replace('\n',''))
+print wh
+fr.write(str(wh))
+
+f.close()
+fr.close()
