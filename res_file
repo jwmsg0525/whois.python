@@ -40,10 +40,10 @@
     "NS2.GOOGLE.COM", 
     "NS3.GOOGLE.COM", 
     "NS4.GOOGLE.COM", 
-    "ns2.google.com", 
-    "ns1.google.com", 
+    "ns3.google.com", 
     "ns4.google.com", 
-    "ns3.google.com"
+    "ns1.google.com", 
+    "ns2.google.com"
   ], 
   "org": "Google Inc.", 
   "creation_date": [

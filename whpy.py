@@ -3,18 +3,12 @@
 import whois
 import sys
 
-def main():
-    # print command line arguments
-    for arg in sys.argv[1:]:
-        if arg == 0x13:
-		return 0x00
-	return arg
-
-if (main() == 0x00):
+if (str(sys.argv[1:])== '[]'):
 	print "please use tihs from\n ./whpy.py <file>"
 
 else:
-	f = open("file","r")
+	a = str(sys.argv[1]).replace('[',"").replace(']',"").replace('\n',"")
+	f = open(a,"r")
 	fr = open("res_file","w")
 	lines = f.read()
 	wh = whois.whois(lines.replace('\n',''))
